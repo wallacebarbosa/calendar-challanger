@@ -28,8 +28,7 @@ O escopo implementado foi os de número 1, 2, 3, 4, 5, 6, 7, 9, 11, 12 e 13.
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/calendario-desafio-sva.git
-
+   git clone  https://github.com/wallacebarbosa/calendar-challanger.git
 
 
 ### Backend
