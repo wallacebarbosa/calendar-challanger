@@ -33,7 +33,7 @@ O escopo implementado foi os de número 1, 2, 3, 4, 5, 6, 7, 9, 11, 12 e 13.
 
 ### Backend
 
-1. Comand **`yarn`** ou **`npm install`**
+1. Comando **`yarn`** ou **`npm install`**
 
 2. Comando **`yarn start`** ou **`npm start`**
 
