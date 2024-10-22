@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/${input:programPath}",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ],
+            "runtimeArgs": [
+                "-r",
+                "ts-node/register"
+            ],
+            "sourceMaps": true,
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "programPath",
+            "description": "Select the entry point for your application",
+            "options": [
+                "src/server.ts",
+                "src/app.ts"
+            ]
+        }
+    ]
+}

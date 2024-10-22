@@ -1,0 +1,36 @@
+button{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #7d4784;
+    color: white;
+    cursor: pointer;
+  }
+  
+ button:hover {
+    background-color: #5d2b5d;
+  }
+
+  button:focus {
+    outline: none;
+  }
+  
+  
+  
+button:hover::after {
+    
+    width: 100%;
+  
+  
+  }
+  
+ button:hover {
+    transform: translate(1px);
+  
+  
+  }

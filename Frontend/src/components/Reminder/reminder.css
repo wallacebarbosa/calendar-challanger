@@ -1,0 +1,65 @@
+.reminder {
+    width: 35%;
+    margin: 30px;
+    background-color: rgb(82, 51, 115);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: transform 0.5s ease;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    outline: none;
+    z-index: 1000;
+
+}
+
+.reminder h2 {
+    color: white;
+    margin: 10px;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+
+}
+
+.close-button {
+    position: absolute;
+    width: 60px;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+
+.close-button:hover {
+    color: red;
+
+}
+
+@keyframes transform {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
