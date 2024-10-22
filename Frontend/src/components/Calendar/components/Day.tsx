@@ -1,4 +1,3 @@
-// Day.tsx
 import React, { MouseEvent, useState } from "react";
 import "../styles/day.css";
 import { Reminder } from "../../../types/Reminder";
@@ -24,10 +23,18 @@ const Day = ({ day, isCurrent, isPrevMonth, isNextMonth, reminders }: DayProps) 
     setShowMore(prev => !prev);
   };
 
+  const isClickable = !isPrevMonth && !isNextMonth;
+
+  const handleClick = (e: MouseEvent<HTMLDivElement>) => {
+    if (isClickable) {
+      handleDayClick(e); 
+    }
+  };
+
   
 
   return (
-    <div className={className} onClick={handleDayClick}>
+    <div className={className} onClick={handleClick}>
       <p>{day}</p>
       <DayReminders reminders={reminders} showMore={showMore} onShowMore={toggleShowMore} day={day} />
     </div>
