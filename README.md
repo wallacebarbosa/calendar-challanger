@@ -18,8 +18,8 @@ O escopo implementado foi os de número 1, 2, 3, 4, 5, 6, 7, 9, 11, 12 e 13.
 
 ## Tecnologias Utilizadas
 
--**Linguagem:**: TypeScript
--**Framework**: ExpressJS
+- **Linguagem:**: TypeScript
+- **Framework**: ExpressJS
 - **React**: Framework JavaScript para a construção da interface do usuário.
 - **React Context API**: Para o gerenciamento de estado global do calendário.
 - **Banco de dados**: MongoDB
