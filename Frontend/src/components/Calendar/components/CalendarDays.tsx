@@ -5,12 +5,6 @@ import { useCalendarState } from "../../../providers/CalendarProvider/CalendarSt
 import { getReminders } from '../../../services/reminderService';
 import { Reminder } from "../../../types/Reminder";
 
-// type CalendarDaysProps = {
-//   currentDay: number;
-//   currentMonth: number;
-//   currentYear: number;
-// };
-
 const CalendarDays = () => {
   const { currentDay, month, year } = useCalendarState(); // Obtém o dia, mês e ano do estado global
   const [reminders, setReminders] = useState<Reminder[]>([]); // Estado para armazenar os lembretes
