@@ -1,7 +1,4 @@
 # calendar-challanger
-Este repositório contém a implementação de um calendário desenvolvido como parte de um desafio técnico proposto pela empresa SVA. 
-
-# Calendário - Desafio SVA
 
 Este repositório contém a implementação de um calendário desenvolvido como parte de um desafio técnico proposto pela empresa SVA. O objetivo do desafio foi criar uma aplicação interativa e funcional, capaz de gerenciar eventos e datas de forma eficiente, utilizando as melhores práticas de desenvolvimento front-end.
 
