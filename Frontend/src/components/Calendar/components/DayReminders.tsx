@@ -32,7 +32,7 @@ export const DayReminders = ({ reminders, showMore, onShowMore, day }: DayRemind
       {renderReminders(reminders.slice(0, 2))}
       {reminders.length > 2 && (
         <div onClick={onShowMore} className="view-more-button">
-          {showMore ? "Show Less Events" : "Show More Events"}
+          {showMore ? "Mostrar menos" : "Mostra mais"}
         </div>
       )}
       {showMore && (
